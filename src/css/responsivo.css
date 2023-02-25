@@ -1,0 +1,393 @@
+
+
+@media (max-width: 1500px) {
+
+    .conteudo {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .cabecalho {
+        text-align: center;
+        font-size: 500%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .conteudo {
+        text-align: center;
+        font-size: 500%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .conteudo-foto {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 1366px) {
+
+    .cabecalho {
+        font-size: 60px;
+    }
+
+    .conteudo-foto {
+        width: 300px;
+    }
+
+    .conteudo-texto {
+        font-size: 40px;
+    }
+
+    .rodape {
+        height: max-content;    
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 65px;
+        height: 65px;
+        gap: 60px;
+    }
+}
+
+
+
+@media (max-width: 1280px) {
+    
+    .cabecalho {
+        margin-top: 50px;
+        font-size: 70px;
+    }
+
+    .conteudo-foto {
+        width: 35%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteudo-texto {
+        font-size: 45px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+    }
+
+    .rodape {
+        height: max-content;
+        margin-top: 10px;
+    }
+
+    
+}
+
+
+@media (max-width: 1230px) {
+    
+    .cabecalho {
+        margin-top: 50px;
+        font-size: 70px;
+    }
+
+    .conteudo-foto {
+        width: 400px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .conteudo-texto {
+        font-size: 45px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 20px;
+    }
+
+    .rodape {
+        height: max-content;
+        margin-top: 30px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 1160px) {
+
+    .conteudo-foto {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .conteudo-texto {
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .rodape {
+        height: max-content;    
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 75px;
+        height: 75px;
+        gap: 60px;
+    }
+}
+
+
+
+@media (max-width: 1047px) {
+    .cabecalho {
+        font-size: 65px;
+        margin-top: 60px;
+    }
+
+    .conteudo-texto {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 1025px) {
+
+    .conteudo-foto {
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteudo-texto {
+        margin: 0;
+        padding-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 986px) {
+
+    .cabecalho {
+        font-size: 60px;
+    }
+
+    .conteudo-foto {
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    .conteudo-texto {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .rodape {
+        height: max-content;    
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 80px;
+        height: 80px;
+        gap: 60px;
+    }
+
+}
+
+
+@media (max-width: 895px) {
+
+    .cabecalho {
+        font-size: 56px;
+    }
+}
+
+
+@media (max-width: 837px) {
+
+    .conteudo-texto {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 690px) {
+
+    .cabecalho {
+        font-size: 53px;
+    }
+
+    .conteudo-foto {
+        width: 350px;
+    }
+
+    .conteudo-texto {
+        font-size: 38px;
+    }
+
+    .rodape {
+        height: max-content;    
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 70px;
+        height: 70px;
+        gap: 60px;
+    }
+}
+
+
+
+@media (max-width: 580px) {
+
+    .conteudo {
+        gap: 40px;
+    }
+
+    .cabecalho {
+        margin-top: 30px;
+        font-size: 50px;
+    }
+
+    .conteudo-foto {
+        margin-top: 40px;
+        width: 340px;
+    }
+
+    .conteudo-texto {
+        font-size: 35px;
+    }
+}
+
+
+
+@media (max-width: 530px) {
+
+
+  
+    .conteudo .cabecalho {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        text-align: center;
+        height: auto;
+        gap: 30px;
+        padding: 2%;
+
+    }
+
+    .cabecalho {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 80px;
+        text-align: center;
+        max-width: fit-content;
+        margin: auto;
+        font-size: 50px;
+    }
+
+    .conteudo-foto {
+        width: 200px;
+    }
+
+    .conteudo-texto {
+        font-size: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+
+
+@media (max-width: 420px) {
+    .cabecalho {
+        font-size: 35px;
+    }
+
+    .conteudo-foto {
+        padding: 0;
+        width: 280px;
+    }
+
+    .conteudo-texto {
+        font-size: 28px;
+    }
+
+    .rodape {
+        height: max-content;
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 45px;
+        height: 45px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 395px) {
+    .cabecalho {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .conteudo-foto {
+        padding: 0;
+    }
+
+    .conteudo-texto {
+        font-size: 25px;
+    }
+
+    .rodape {
+        height: max-content;
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 45px;
+        height: 45px;
+        gap: 20px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .cabecalho {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .conteudo-foto {
+        padding: 0;
+        width: 240px;
+    }
+
+    .conteudo-texto {
+        font-size: 25px;
+    }
+
+    .rodape {
+        height: max-content;
+    }
+
+    .rodape-github-icone, .rodape-linkedin-icone, .rodape-instagram-icone {
+        width: 45px;
+        height: 45px;
+        gap: 20px;
+    }
+}
